@@ -1,0 +1,29 @@
+h1{
+    font-family: "Italianno", cursive;
+    color: white;
+}
+body{
+    background-image: url(images/5138-background-color.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+img{
+   border-radius: 30px;
+   width: 100%;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+section{
+    color: white;
+}
