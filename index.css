@@ -1,5 +1,5 @@
 h1{
-    font-family: "Italianno", cursive;
+    font-family: Italianno;
     color: white;
 }
 body{
@@ -9,21 +9,30 @@ body{
 }
 ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 img{
-   border-radius: 30px;
-   width: 100%;
+   border-radius: 40px;
+   width: 50%;
+   filter:  drop-shadow(0 0 0.75rem rgb(255, 13, 13));
+   padding-right: 20px;
 }
 h2{
     text-align: center;
     color: white;
 }
 section{
+    color: white;
+    display: flex;
+    font-size: 30px;
+    
+}
+main{
     color: white;
 }
