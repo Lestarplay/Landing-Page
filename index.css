@@ -19,7 +19,8 @@ a{
 }
 img{
    border-radius: 40px;
-   width: 50%;
+   width: 20rem;
+   height: 20rem;
    filter:  drop-shadow(0 0 0.75rem rgb(255, 13, 13));
    padding-right: 20px;
 }
@@ -81,3 +82,8 @@ form{
     padding-left: 40px;
     padding-right: 50px;
 }
+@media only screen and (max-width: 700px) {
+    .ajuste {
+        grid-template-columns: 1fr;
+    }
+  }
