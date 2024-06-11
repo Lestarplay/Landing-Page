@@ -22,7 +22,7 @@ img{
    width: 20rem;
    height: 20rem;
    filter:  drop-shadow(0 0 0.75rem rgb(255, 13, 13));
-   padding-right: 20px;
+   padding-right: 40px;
 }
 h2{
     text-align: center;
@@ -37,15 +37,12 @@ section{
 main{
     color: white;
     display: flex;
-    
-}
-.Tabela{
     font-size: 20px;
 }
 .ajuste{
     text-align: center;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 40px;
     font-size: 30px;
 }
 .button-wrapper-cta {
@@ -76,14 +73,14 @@ main{
 }
 form{
     text-align: center;
-    display: flex;
-    justify-content: space-around;
+    background-color: coral;
+    background-position: center;
+    border-radius: 40px;
     padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 50px;
-}
-@media only screen and (max-width: 700px) {
-    .ajuste {
-        grid-template-columns: 1fr;
+ 
+  }
+@media screen and (max-width: 840px) {
+    .column {
+      width: 100%;
     }
   }
